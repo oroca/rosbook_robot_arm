@@ -5,4 +5,4 @@ moveit_setup_assistant_config:
   SRDF:
     relative_path: config/robot_arm.srdf
   CONFIG:
-    generated_timestamp: 1422359306
+    generated_timestamp: 1422425849
