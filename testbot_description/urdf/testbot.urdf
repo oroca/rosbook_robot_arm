@@ -4,26 +4,8 @@
   <material name="black">
     <color rgba="0.0 0.0 0.0 1.0"/>
   </material>
-  <material name="blue">
-    <color rgba="0.0 0.0 0.8 1.0"/>
-  </material>
-  <material name="green">
-    <color rgba="0.0 0.8 0.0 1.0"/>
-  </material>
-  <material name="grey">
-    <color rgba="0.2 0.2 0.2 1.0"/>
-  </material>
   <material name="orange">
     <color rgba="1.0 0.423529411765 0.0392156862745 1.0"/>
-  </material>
-  <material name="brown">
-    <color rgba="0.870588235294 0.811764705882 0.764705882353 1.0"/>
-  </material>
-  <material name="red">
-    <color rgba="0.8 0.0 0.0 1.0"/>
-  </material>
-  <material name="white">
-    <color rgba="1.0 1.0 1.0 1.0"/>
   </material>
 
   <link name="base"/>
@@ -31,6 +13,7 @@
     <parent link="base"/>
     <child link="link1"/>
   </joint>
+
   <!-- Link 1 -->
   <link name="link1">
     <collision>
@@ -59,6 +42,7 @@
     <axis xyz="0 0 1"/>
     <limit effort="30" lower="-2.617" upper="2.617" velocity="1.571"/>
   </joint>
+
   <!-- Link 2 -->
   <link name="link2">
     <collision>
@@ -87,6 +71,7 @@
     <axis xyz="0 1 0"/>
     <limit effort="30" lower="-2.617" upper="2.617" velocity="1.571"/>
   </joint>
+
   <!-- Middle Link -->
   <link name="link3">
     <collision>
@@ -115,6 +100,7 @@
     <axis xyz="0 1 0"/>
     <limit effort="30" lower="-2.617" upper="2.617" velocity="1.571"/>
   </joint>
+
   <!-- Top Link -->
   <link name="link4">
     <collision>
@@ -136,5 +122,6 @@
       <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
     </inertial>
   </link>
+  
 </robot>
 
