@@ -14,7 +14,6 @@
     <child link="link1"/>
   </joint>
 
-  <!-- Link 1 -->
   <link name="link1">
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.25"/>
@@ -43,7 +42,6 @@
     <limit effort="30" lower="-2.617" upper="2.617" velocity="1.571"/>
   </joint>
 
-  <!-- Link 2 -->
   <link name="link2">
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.25"/>
@@ -72,7 +70,6 @@
     <limit effort="30" lower="-2.617" upper="2.617" velocity="1.571"/>
   </joint>
 
-  <!-- Middle Link -->
   <link name="link3">
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.5"/>
@@ -101,7 +98,6 @@
     <limit effort="30" lower="-2.617" upper="2.617" velocity="1.571"/>
   </joint>
 
-  <!-- Top Link -->
   <link name="link4">
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0.25"/>
